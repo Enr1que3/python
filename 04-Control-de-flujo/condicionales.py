@@ -8,8 +8,8 @@
 #Escribe un programa que sea capaz de mostrar los numero del 1 al 100 en ordern inverso
 
 
-cien=100
-while cien>0:
-    print(cien)
-    cien-=1
+contador=100
+while contador>0:
+    print(contador)
+    contador-=1
 
