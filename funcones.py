@@ -12,4 +12,5 @@ def bisiesto(año):
     else:
         print("Año no bisiesto")
 
-bisiesto(2028)
+year =int(input("ingrese el año"))
+bisiesto(year)
