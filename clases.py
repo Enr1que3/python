@@ -3,6 +3,8 @@ class Dino:
     encendido=True
 
     #metodos(Funcones)
+    #usar self es como usar this el  cual hace referencia a 
+    #las varibles privadas(propiedades)
     def  apaga():
         self.encendido=False
 
