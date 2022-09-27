@@ -9,11 +9,6 @@ class Alumno:
         else:
             print(nombre,"Reprobado con",nota)
     
-    def calificacion(nombre, nota):
-        pass
-        
-    
-
 a=Alumno("Enrique",50)
 
 
