@@ -9,7 +9,7 @@ while True:
     
     time.sleep(60)
 
-if hora_actual>=7:
+if int(hora_actual)>=7:
     print("Es hora de ir se a casa")
 else:
     hora_actual=time.time()
