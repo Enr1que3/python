@@ -9,7 +9,7 @@ ventana.geometry('350x150')
 ventana.columnconfigure(0,weight=1)
 ventana.columnconfigure(0,weight=3)
 
-def restart():   # ESTA ES LA SENTENCIA QUE DA ORIGEN A LA CONSULTA
+def restart():
   os.execl(sys.executable, sys.executable, * sys.argv) 
 
 
